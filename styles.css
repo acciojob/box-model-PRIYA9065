@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.container{
+	width: 400px;
+	height: 200px;
+	background-color: lightgrey;
+	border: 5px solid black;
+	border-radius: 35px;
+	padding: 40px;
+	margin: auto;
+	
+}
+
+
+#a1, #a2, #a3{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 50%;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.c1{
+	background-color: green;
+}
+
+.c2{
+	background-color: yellow;
+}
+
+.c3{
+	background-color: red;
+}
